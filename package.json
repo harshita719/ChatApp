@@ -1,0 +1,20 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Chat Application Using MongoDb and Express",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "chatapp"],
+  "author": "Harshita",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.3.1"
+  }
+}
